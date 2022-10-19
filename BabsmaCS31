@@ -1,0 +1,19 @@
+../exec-gf-v19.1/babsma_lu << EOF
+'LAMBDA_MIN:' '1800'
+'LAMBDA_MAX:' '10500'
+'LAMBDA_STEP:' '0.01'
+'MODELINPUT:' 'models/4825g1.5z-3.00a0.40t1.5.interpol'
+'MARCS-FILE:' '.false.'
+'MODELOPAC:' 'contopac/4825g1.5z-3.00a0.40t1.5.interpolopac'
+'METALLICITY:' '${METALLIC}'
+'ALPHA/Fe   :' '0.40'
+'HELIUM     :' '0.00'
+'R-PROCESS  :' '0.00'
+'S-PROCESS  :' '0.00'
+'INDIVIDUAL ABUNDANCES:' '3'
+8  $O_ab
+12 $Mg_ab
+26 $Fe_ab
+'XIFIX:' 'T'
+$TURBVEL
+EOF

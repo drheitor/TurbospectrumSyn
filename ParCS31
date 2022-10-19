@@ -1,0 +1,25 @@
+#!/bin/csh -f
+date
+#set echo
+#set verbose
+set mpath= models
+
+
+foreach BLABLA (\
+4825g1.5z-3.00a0.40t1.5.interpol\
+)
+
+set Etoile	 = 'CS31082-001'
+set deltalam   = '0.01'
+set MODEL      = ${BLABLA}
+set PARAMETERFILE = 'parameter.dat'
+set METALLIC   = '-2.9'
+set TURBVEL    = '1.8'
+
+set MOLECULE_LIST = 'LISTE_molecules_all_v12.1.dat'
+
+set Fe_ab=4.59
+set C_ab=5.82
+set N_ab=5.22
+set O_ab=6.82
+set Mg_ab=5.04

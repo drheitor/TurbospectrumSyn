@@ -1,0 +1,19 @@
+../exec-v19.1/babsma_lu << EOF
+'LAMBDA_MIN:'  '1800'
+'LAMBDA_MAX:'  '10500'
+'LAMBDA_STEP:' '${deltalam}'
+'MODELINPUT:' '../models/${MODEL}'
+'MARCS-FILE:' '.false.'
+'MODELOPAC:' '../contopac/${MODEL}opac'
+'METALLICITY:'    '${METALLIC}'
+'ALPHA/Fe   :'    '0.40'
+'HELIUM     :'    '0.00'
+'R-PROCESS  :'    '0.00'
+'S-PROCESS  :'    '0.00'
+'INDIVIDUAL ABUNDANCES:'	 '3'
+ 8 $O_ab 
+12 $Mg_ab
+26 $Fe_ab
+'XIFIX:' 'T'
+$TURBVEL
+EOF

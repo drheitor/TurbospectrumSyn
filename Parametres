@@ -1,0 +1,21 @@
+#!/bin/csh -f
+date
+#set echo
+#set verbose
+
+foreach BLABLA (\
+4825g1.5z-3.00a0.40t1.5\
+)
+set Etoile	 = 'Arcturus'
+set deltalam   = '0.01'
+set MODEL      = ${BLABLA}
+
+set METALLIC   = '-0.54'
+set TURBVEL    = '1.0'
+
+set C_ab=8.0
+set N_ab=7.69
+set O_ab=8.65
+set Mg_ab=7.04
+set Fe_ab=6.96
+
