@@ -1,0 +1,19 @@
+../exec-gf-v19.1/babsma_lu << EOF
+'LAMBDA_MIN:'     '${lam_min}'
+'LAMBDA_MAX:'     '${lam_max}'
+'LAMBDA_STEP:'    '${deltalam}'
+'MODELINPUT:' 'models/${MODEL}'
+'MARCS-FILE:' '.false.'
+'MODELOPAC:' 'contopac/${MODEL}opac'
+'METALLICITY:' '${METALLIC}'
+'ALPHA/Fe   :' '0.40'
+'HELIUM     :' '0.00'
+'R-PROCESS  :' '0.00'
+'S-PROCESS  :' '0.00'
+'INDIVIDUAL ABUNDANCES:' '3'
+8  $O_ab
+12 $Mg_ab
+26 $Fe_ab
+'XIFIX:' 'T'
+$TURBVEL
+EOF
