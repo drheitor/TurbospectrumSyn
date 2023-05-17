@@ -4,6 +4,10 @@
 
 # Hyperfine structure:
 
+Yb II 3289, 3694A lines Included 
+
+Pt I  3064, 3301A lines Included 
+
 Ba II  UV lines update  Ernandes et al. 2023, in preparation
 
 Eu II UV lines update  Ernandes et al. 2023, in preparation
