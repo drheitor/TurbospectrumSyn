@@ -2,10 +2,12 @@
 
 ---
 
-# Hyperfine structure:
+# Log gf changes:
 
 Bi I 3024, line log gf = 1.35 from Andersen et al. (1972) as reported in VALD and Kurucz Included.
 log gf from Wahlgren et al. (2001), log gf= −0.15 as reported in NIST not Included.
+
+# Hyperfine structure:
 
 Yb II 3289, 3694A lines Included 
 
